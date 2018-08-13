@@ -31,7 +31,7 @@ int main(int argc, char** argv){
   pick.target_pose.pose.position.y = -4.0;
   pick.target_pose.pose.orientation.w = 1.0;
   drop.target_pose.pose.position.x = 0.5;
-  drop.target_pose.pose.position.y = -5.0;
+  drop.target_pose.pose.position.y = -5.5;
   drop.target_pose.pose.orientation.w = 1.0;
 
    // Send the goal position and orientation for the robot to reach
