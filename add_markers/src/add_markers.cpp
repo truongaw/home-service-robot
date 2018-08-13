@@ -39,7 +39,7 @@ bool wait = false;
 float x1 = 0.5;
 float y1 = -4.0;
 float x2 = 0.5;
-float y2 = -5.0;
+float y2 = -5.5;
 float x1L = x1 - delta;
 float y1L = y1 - delta;
 float x1U = x1 + delta;
@@ -148,7 +148,7 @@ int main(int argc, char **argv)
             }
             if (drop) {
                 marker.header.frame_id = "/map";
-                marker.pose.position.x = -5.0;
+                marker.pose.position.x = -5.5;
                 marker.pose.position.y = 0.5;
             }
         }
